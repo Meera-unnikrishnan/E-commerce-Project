@@ -1,0 +1,10 @@
+import React from 'react';
+import { Container, Row, Col, Tab, Nav, Image, Form, Button, Badge } from 'react-bootstrap';
+import { useThemeHook } from '../GlobalComponents/ThemeProvider';
+import Heading from  '../components/Heading';
+import profilePix from '../images/profile-picture.png';
+import { FaClipboardList, FaUser } from 'react-icons/fa';
+import './my-account.css';
+import OrderCard from '../components/OrderCard';
+import Navbar from '../components/Nav';
+import { useNavigate } from "react-router-dom";
